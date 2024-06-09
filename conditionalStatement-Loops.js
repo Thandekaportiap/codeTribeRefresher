@@ -44,7 +44,7 @@ switch (true) {
 } else {
     console.log("Not divisible by 2 or 3.");
 }
-
+// Division check using switch statement
 let division1 = 9;
 switch(true){
 case division1 % 2 ===0  && division1 %  3 === 0:
@@ -61,4 +61,30 @@ case division1 % 2 ===0  && division1 %  3 === 0:
             break;
 }
 
+// Exercise 3: For loops
+for (let i = 1; i <= 10; i++){
+    console.log( i)
+}
 
+for (let i = 2; i <= 20; i += 2) {
+    console.log(i);
+}
+
+let sumTotal = 0;
+for (let i = 1; i <= 100; i++){
+   console.log(sumTotal += i);
+}
+
+const numbers = [1, 2, 3, 4, 5];
+for (let i = 0; i < numbers.length; i++) {
+    console.log(numbers[i]);
+}
+
+const numbers1 = [3, 7, 2, 5, 10, 6];
+let largestNumber = numbers1[0];
+for (let i = 1; i < numbers1.length; i++) {
+    if (numbers1[i] > largestNumber) {
+        largestNumber = numbers1[i];
+    }
+}
+console.log(largestNumber);

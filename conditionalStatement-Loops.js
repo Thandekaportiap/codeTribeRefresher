@@ -88,3 +88,25 @@ for (let i = 1; i < numbers1.length; i++) {
     }
 }
 console.log(largestNumber);
+
+//Exercise 4: While loops
+let base = 1
+while (base <= 10){
+    console.log(base);
+    base++;
+}
+
+let t = 1;
+while (t <= 20) {
+  if (t % 2 === 0) {
+    console.log(t);
+  }
+  t++;
+}
+
+let subTotal = 0;
+let k = 1;
+while (k <= 100) {
+ console.log(subTotal += k);
+  k++;
+}

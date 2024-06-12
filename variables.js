@@ -1,12 +1,17 @@
 
+
+
 //Exercise 1: Variable Declaration
-const name = "Thandeka Portia P Mazibuko";
+const fullName = "Thandeka Portia P Mazibuko";
 const age = 26;
 const isStudent = true;
 
 //Print all
-console.log(name, age, isStudent);
+console.log(fullName, age, isStudent);
 
+//HTML content
+let h1 = document.getElementById("head");
+h1.innerHTML = fullName;
 
 //Exercise 2: Variable Reassignment
 let favoriteColour = "blue";

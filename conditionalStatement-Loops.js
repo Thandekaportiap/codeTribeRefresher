@@ -110,3 +110,40 @@ while (k <= 100) {
  console.log(subTotal += k);
   k++;
 }
+
+let num5 = 1;
+while (num5 < 50) {
+  if (num5 % 5 === 0) {
+    console.log(num5);
+  }
+  num5++;
+}
+
+//Exercise 5: Do while loop
+
+let num6 = 1;
+do {
+    console.log(num6);
+    num6++;
+} while (num6 <= 10);
+
+let sumOfAll = 0;
+let num7 = 1;
+do {
+    sumOfAll += num7;
+    num7++;
+} while (num7 <= 100);
+console.log(sumOfAll);
+
+let secretNumber = 7
+let guessedNumber = false;
+
+ do {
+    let guessedNumber = prompt("guess a number from 1 to 10");
+    if (guessedNumber === secretNumber) {
+        guessedNumber = true;
+        console.log("Good guess");
+    }else {
+        console.log("hard luck. try again")
+    }
+ } while (!guessedNumber);
